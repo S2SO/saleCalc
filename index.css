@@ -1,0 +1,43 @@
+.container {
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+input {
+  width: 70px;
+  height: 15px;
+}
+.top {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.fa-hand-holding-dollar {
+  font-size: 80px;
+}
+.inputBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.price,
+.sale {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  gap: 5px;
+}
+p {
+  margin: 0;
+}

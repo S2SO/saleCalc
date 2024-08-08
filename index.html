@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="index.js" type="module" defer></script>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <section class="container">
+      <div class="top">
+        <div class="icon">
+          <i class="fa-solid fa-hand-holding-dollar"></i>
+        </div>
+        <div class="inputBox">
+          <span class="price">
+            <p>원래 가격</p>
+            <input id="priceInput" type="text" />
+            <p>원</p>
+          </span>
+          <span class="sale">
+            <p>할인율</p>
+            <input id="saleInput" type="text" />
+            <p>%</p>
+          </span>
+          <button id="calcButton">할인 가격 계산하기</button>
+        </div>
+      </div>
+      <div class="result"></div>
+    </section>
+  </body>
+</html>
